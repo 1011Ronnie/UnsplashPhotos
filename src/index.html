@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UnsplashPhotos</title>
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="headerLogo">Photos from Unsplash</h1>
+    </header>
+
+    <section>
+      <div class="paramsContainer" id="query-params">
+        <div class="group">
+          <input type="text" id="input" required />
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>What are you looking for?</label>
+        </div>
+        <button class="button submit">Let's Go!</button>
+      </div>
+
+      <div class="photosList" id="photos-list"></div>
+    </section>
+
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
