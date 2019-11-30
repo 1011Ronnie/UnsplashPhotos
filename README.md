@@ -2,6 +2,8 @@
 
 Приложение позволяет просматривать фотографии с Unsplash
 
+Протестировать можно [здесь](https://unsplash-photos.firebaseapp.com/)
+
 ### Установка и запуск проекта
 1. Скачайте сборку архивом или используя команду:
 ```git clone git@github.com:1011Ronnie/UnsplashPhotos.git```
